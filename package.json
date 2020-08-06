@@ -1,0 +1,25 @@
+{
+  "name": "request-give-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isihaaaa/request-give-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isihaaaa/request-give-back/issues"
+  },
+  "homepage": "https://github.com/Isihaaaa/request-give-back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
