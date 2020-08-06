@@ -8,7 +8,9 @@ router.get("/", (req, res) => {
       "------------------------------------------------------------"
     )
   );
-  console.log(chalk.bold.blue("req header: ") + req.header);
+  console.log(chalk.bold.blue("req method: ") + req.method);
+  console.log(chalk.bold.blue("req url: ") + req.url);
+  console.log(chalk.bold.blue("req header: ") + JSON.stringify(req.headers));
   console.log(chalk.bold.blue("req body: ") + JSON.stringify(req.body));
   console.log(
     chalk.bold.yellow(
@@ -25,7 +27,9 @@ router.post("/", (req, res) => {
       "------------------------------------------------------------"
     )
   );
-  console.log(chalk.bold.blue("req header: ") + req.header);
+  console.log(chalk.bold.blue("req method: ") + req.method);
+  console.log(chalk.bold.blue("req url: ") + req.url);
+  console.log(chalk.bold.blue("req header: ") + JSON.stringify(req.headers));
   console.log(chalk.bold.blue("req body: ") + JSON.stringify(req.body));
   console.log(
     chalk.bold.yellow(
@@ -41,7 +45,9 @@ router.delete("/", (req, res) => {
       "------------------------------------------------------------"
     )
   );
-  console.log(chalk.bold.blue("req header: ") + req.header);
+  console.log(chalk.bold.blue("req method: ") + req.method);
+  console.log(chalk.bold.blue("req url: ") + req.url);
+  console.log(chalk.bold.blue("req header: ") + JSON.stringify(req.headers));
   console.log(chalk.bold.blue("req body: ") + JSON.stringify(req.body));
   console.log(
     chalk.bold.yellow(
@@ -57,7 +63,9 @@ router.patch("/", (req, res) => {
       "------------------------------------------------------------"
     )
   );
-  console.log(chalk.bold.blue("req header: ") + req.header);
+  console.log(chalk.bold.blue("req method: ") + req.method);
+  console.log(chalk.bold.blue("req url: ") + req.url);
+  console.log(chalk.bold.blue("req header: ") + JSON.stringify(req.headers));
   console.log(chalk.bold.blue("req body: ") + JSON.stringify(req.body));
   console.log(
     chalk.bold.yellow(
